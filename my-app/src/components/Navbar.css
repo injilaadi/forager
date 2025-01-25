@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    .navbar-center .nav-links {
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      list-style:none;
+      margin:-2%;
+      font-family: Times 'Times New Roman', Times, serif;
+      text-transform:uppercase;
+    }
+
+    .navbar-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-right .hamburger-menu {
+      display: block;
+      color: #fff;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  
+  .navbar-center .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-center .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .navbar-center .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
