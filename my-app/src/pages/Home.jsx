@@ -9,12 +9,12 @@ function Home(){
         
         <nav className = "navBar">
             <h3 className = "For you"><a className="anchorHover" href="/" style={{color: 'black'}} onMouseOver={"black"}>Home</a></h3>
-            <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Forager</a></h3>
+            <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Fit</a></h3>
             <h3 className = "Sign-in"><a href="/Account" style={{color: 'black'}}>Account</a></h3>
         </nav>
 
-        <h4 className ="summerDrop">Sustainable Recommendations</h4>
-        <section className = "summer-container">
+        <h4 className ="recs">Sustainable Recommendations</h4>
+        <section className = "recs-container">
            <div className="product-container">
             <img className ="product" src="https://www.esteelauder.com/media/export/cms/products/640x640/el_sku_PG5C01_640x640_0.jpg"/>
             <button className ="product-label">Advanced Night Repair Serum Duo</button>
@@ -46,8 +46,12 @@ function Home(){
             <button className = "purchase">Add To Bag</button>
           </div>
         </section>
+        <footer class = "footer">
+            <h1 class = "footerTitle">Forager © 2025</h1>
     
+        </footer>
       </section>
+      
       </>
         );
 
