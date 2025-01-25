@@ -1,11 +1,11 @@
 import React from "react";
-
+import FileUpload from "../components/FileUpload";
 function Fit(){
    
         return(
             <section> 
             <h1 className = "homeTitle">Find Your Fit</h1>
-        
+            
             <nav className = "navBar">
                 <h3 className = "For you"><a className="anchorHover" href="/" style={{color: 'black'}} onMouseOver={"black"}>Home</a></h3>
                 <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Fit</a></h3>
@@ -13,7 +13,12 @@ function Fit(){
             </nav>
             
             <section class = "home-container">
-            <img class = "bottleimg fade" src="6.jpg"/>
+
+            {/* <img class = "bottleimg fade" src="6.jpg"/> */}
+            <div class="bottleimg fade">
+            <FileUpload/>
+            </div>
+            
             <div class="homepg-txt">
               <h2 class="serumText">Find your best fit</h2>
               <h3 class = "serumDesc">A way to find sustainable dupes to your favorites. But better.</h3>
