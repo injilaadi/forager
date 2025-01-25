@@ -8,9 +8,9 @@ function Home(){
         <h1 className = "homeTitle">Forager</h1>
         
         <nav className = "navBar">
-            <h3 className = "For you"><a href="index.html"><button>Home</button></a></h3>
-            <h3 className = "Find your best fit"><a href="forager.html"><button>Forager</button></a></h3>
-            <h3 className = "Sign-in"><a href="account.html"><button>Account</button></a></h3>
+            <h3 className = "For you"><a className="anchorHover" href="/" style={{color: 'black'}} onMouseOver={"black"}>Home</a></h3>
+            <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Forager</a></h3>
+            <h3 className = "Sign-in"><a href="/Account" style={{color: 'black'}}>Account</a></h3>
         </nav>
 
         <h4 className ="summerDrop">Sustainable Recommendations</h4>

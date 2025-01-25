@@ -30,8 +30,22 @@ body {
     text-transform:uppercase;
     
   }
-    
+
+  a{
+    text-decoration:underline;
+    text-decoration-color: transparent;
+    color: inherit;
+  }
+
+    a:hover{
+        text-decoration-color:black;
+    }
   
+    
+  :hover{
+    color: var(--hover-color);
+
+  }
   
   .navBar h3{
     margin:2%;
@@ -60,9 +74,10 @@ body {
     color:black;
     font-size:20px;
     box-shadow:none;
-    background:transparent;
+    background:none;
     border:none;
     text-transform:uppercase;
+    
     
   }
   
@@ -80,6 +95,7 @@ body {
   nav button:hover{
     box-shadow:none;
     border-bottom:2px solid black;
+
   }
   
   nav button.active{
