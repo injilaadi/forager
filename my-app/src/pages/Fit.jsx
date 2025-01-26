@@ -26,8 +26,11 @@ function Fit(){
             <div class="homepg-txt">
               <h2 class="serumText">Find your best fit</h2>
               <h3 class = "serumDesc">A way to find sustainable dupes to your favorites. But better.</h3>
-              <button class = "shop">Add the fit</button>
-              
+              {/* <button class = "shop"  >Add the fit</button> */}
+              <label class="custom-file-upload">
+                <input type="file"/>
+                Add the fit
+            </label>
               </div>
        
                
