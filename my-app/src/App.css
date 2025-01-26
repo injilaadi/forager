@@ -1,5 +1,5 @@
 #root {
-  max-width: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -46,9 +46,10 @@ body {
   font-family: Times 'Times New Roman', Times, serif;
 }
 
-head, body { 
+* { 
     margin: 0; 
     padding: 0; 
+/* 	box-sizing: border-box; */
 }
 
 .homeTitle{
@@ -66,28 +67,31 @@ nav{
   margin:-2%;
   font-family: Times 'Times New Roman', Times, serif;
   text-transform:uppercase;
-  width: 100vw;
+  
 }
+  
+
 
 .navBar h3{
-  margin:2%; 
+  margin:2%;
+  
 }
-
 @media screen and (max-width:600px){
   .navBar{
     display:block;
     text-align:center;
   }
   .product-container{
-    width:250px;
-    height:300px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    margin:20px;
-    border:1px solid #74493E;
-    }
-  }
+  width:250px;
+  height:300px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:20px;
+  border:1px solid #74493E;
+  
+}
+}
 
 
 nav button{
@@ -116,6 +120,7 @@ nav button:hover {
   box-shadow:none;
   border-bottom:2px solid black;
   text-transform:uppercase;
+  margin:1px;
   background-color: #f4e6e2;
   margin-bottom: 30px;
 }
@@ -139,6 +144,9 @@ nav button.active{
 }
 
 .serumText{
+/*   display:flex;
+  justify-content:end; */
+/*   align-content:center; */
   color:rgb(255, 255, 255);
   margin:20px;
 }
@@ -187,14 +195,10 @@ input[type="file"] {
 }
 
 .custom-file-upload {
-  background-color:black;
-  color:white;
-  border:2px solid black;
-  padding:5px;
-  width:50%;
-  font-size:20px;
-  text-transform: uppercase;
-  margin-top:10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
 }
 
 #file-input {

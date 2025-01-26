@@ -21,20 +21,78 @@ body {
     background-color:#ffffff;
   }
   
+  nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    list-style:none;
+    margin:-2%;
+    font-family: Times 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    
+  }
+
   a{
     text-decoration:underline;
     text-decoration-color: transparent;
     color: inherit;
   }
 
-  a:hover{
-      text-decoration-color:black;
-  }
+    a:hover{
+        text-decoration-color:black;
+    }
   
+    
   :hover{
     color: var(--hover-color);
-  }
 
+  }
+  
+  .navBar h3{
+    margin:2%;
+    
+  }
+  @media screen and (max-width:600px){
+    .navBar{
+      display:block;
+      text-align:center;
+    }
+    .product-container{
+    width:250px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:20px;
+    border:1px solid #74493E;
+    
+  }
+  }
+  
+  
+  nav button{
+    font-style:Times New Roman;
+    color:black;
+    font-size:20px;
+    box-shadow:none;
+    background:none;
+    border:none;
+    text-transform:uppercase;
+    
+    
+  }
+  
+  .navBar{
+    font-style:Times New Roman;
+    /* background-color:#B28173; */
+    font-size:20px;
+    box-shadow:none;
+    border-bottom:2px solid black;
+    text-transform:uppercase;
+    margin:1px;
+    
+  }
+  
   nav button:hover{
     box-shadow:none;
     border-bottom:2px solid black;
@@ -50,18 +108,26 @@ body {
     width:40%;
     height:40%;
     object-fit:cover;
+   
+    
+    
     
   }
   
+  
+
   .serumText{
+  /*   display:flex;
+    justify-content:end; */
+  /*   align-content:center; */
     color:rgb(8, 8, 8);
     margin:20px;
   }
-
   .home-container{
     background-color:#B28173;
     display:flex;
     align-items:center;
+    
     
   }
   
@@ -238,8 +304,8 @@ body {
    
   }
   .account-container{
-   
-    
+    width:fit-content;
+    height:300px;
     display:flex;
     flex-direction:column;
     align-items:center;
