@@ -1,8 +1,12 @@
 import React from "react";
 import FileUpload from "../components/FileUpload";
+import { useState, useEffect } from "react";
 
 function Fit(){
-   
+        const [fits, setFits] = useState([])
+        useEffect(() => {
+            console.log(fits)
+        }, [fits])
         return(
             <section> 
             <h1 className = "homeTitle">Forager</h1>
@@ -19,7 +23,7 @@ function Fit(){
             
             <div class="filedrop">
                 
-            <FileUpload/>
+            <FileUpload setFit={setFits}/>
             </div>
             
             
@@ -35,7 +39,17 @@ function Fit(){
         
           <h4 class ="summerDrop">Here's Your Best Fit Matches</h4>
           <section class = "summer-container">
-             <div class="product-container">
+            {fits.map((fit) => {
+                return <div class="product-container">
+                    <img class ="product" src={fit.url}/>
+                    <button class ="product-label">Advanced Night Repair Serum Duo</button>
+                    <button class = "product-desc">Synchronized Multi-Recovery Complex</button>
+                    <p class="price">$193.00</p>
+                    <button class = "purchase">Add To Bag</button>
+                </div>
+                }
+            )}
+             {/* <div class="product-container">
               <img class ="product" src="https://www.esteelauder.com/media/export/cms/products/640x640/el_sku_PG5C01_640x640_0.jpg"/>
               <button class ="product-label">Advanced Night Repair Serum Duo</button>
               <button class = "product-desc">Synchronized Multi-Recovery Complex</button>
@@ -64,7 +78,7 @@ function Fit(){
               <button class = "product-desc">Reduces the look of lines. Skin feels firmer, nourished</button>
                <p class="price">$78.00</p>
               <button class = "purchase">Add To Bag</button>
-            </div>
+            </div> */}
           </section>
           <footer class = "footer">
             <h1 class = "footerTitle">Forager © 2025</h1>

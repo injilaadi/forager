@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 
-const FileUpload = () => {
+const FileUpload = (props) => {
   const [uploadedFiles, setUploadedFiles] = useState([]);
   const { getRootProps, getInputProps } = useDropzone({
     onDrop: async (acceptedFiles) => {
@@ -27,8 +27,19 @@ const FileUpload = () => {
     const jsonResponse = await response.json();
 
     console.log(jsonResponse)
+    // replace the ``` and JSON to make it into a real object
 
+    // FOR NOW...
+    const FAKE_URL = "https://www.forever21.com/dw/image/v2/BFKH_PRD/on/demandware.static/-/Sites-f21-master-catalog/default/dwe0617128/2_side_750/00487093-05.jpg?sw=1000&sh=1500"
 
+    // make a fake reponse
+    const FAKE_RESPONSE = {
+        cost: "NA",
+        brand: "NA",
+        url: FAKE_URL
+    }
+    // set the parent state
+    props.setFit([FAKE_RESPONSE, FAKE_RESPONSE, FAKE_RESPONSE, FAKE_RESPONSE, FAKE_RESPONSE])
     },
   });
   return (
