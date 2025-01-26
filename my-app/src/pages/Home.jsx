@@ -25,7 +25,7 @@ function Home(){
             <img className ="product" src="https://media-photos.depop.com/b1/15801073/1791126277_55e7666c0e1f41fcbcc443180154f63d/P0.jpg"/>
             <button className ="product-label">Brandy Melville's Women's Cream Shirt</button>
              <p className="price">$15.00</p>
-             <a href = "https://media-photos.depop.com/b1/15801073/1791126277_55e7666c0e1f41fcbcc443180154f63d/P0.jpgv"><button class = "purchase">Add To Bag</button></a>
+             <a href = "https://www.depop.com/products/thatboimich-long-sleeve-ribbed-casual-button/"><button class = "purchase">Add To Bag</button></a>
           </div>
           <div className="product-container">
             <img className ="product" src="https://media-photos.depop.com/b1/13538030/1985784832_3d1b8e45700f40cbb4951825aa7c2775/P0.jpg"/>
