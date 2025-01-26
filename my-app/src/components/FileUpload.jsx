@@ -30,16 +30,17 @@ const FileUpload = (props) => {
     // replace the ``` and JSON to make it into a real object
 
     // FOR NOW...
-    const FAKE_URL = "https://www.forever21.com/dw/image/v2/BFKH_PRD/on/demandware.static/-/Sites-f21-master-catalog/default/dwe0617128/2_side_750/00487093-05.jpg?sw=1000&sh=1500"
+    const FAKE_URL = "https://media-photos.depop.com/r1/16093260/2432718249_bd1d2ec6bbb9473a9ccf90121e6d7a66/P0_IR.jpg"
 
     // make a fake reponse
     const FAKE_RESPONSE = {
-        cost: "NA",
-        brand: "NA",
+        cost: "$15",
+        brand: "Brandy Melville",
+        website: "https://www.depop.com/products/daria_szymelfenig-brandy-melville-los-angeles-sweatshirt/",
         url: FAKE_URL
     }
     // set the parent state
-    props.setFit([FAKE_RESPONSE, FAKE_RESPONSE, FAKE_RESPONSE, FAKE_RESPONSE, FAKE_RESPONSE])
+    props.setFit([FAKE_RESPONSE])
     },
   });
   return (

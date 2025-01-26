@@ -16,34 +16,28 @@ function Home(){
         <h4 className ="recs">Sustainable Recommendations</h4>
         <section className = "recs-container">
            <div className="product-container">
-            <img className ="product" src="https://www.esteelauder.com/media/export/cms/products/640x640/el_sku_PG5C01_640x640_0.jpg"/>
-            <button className ="product-label">Advanced Night Repair Serum Duo</button>
-            <button className = "product-desc">Synchronized Multi-Recovery Complex</button>
-             <p className="price">$193.00</p>
-            <button className = "purchase">Add To Bag</button>
+            <img className ="product" src="https://media-photos.depop.com/b1/37925521/1972738922_6bf42f9519474398a2ccf43f1de321a2/P0.jpg"/>
+            <button className ="product-label">H&M Women's White Shirt</button>
+             <p className="price">$14.00</p>
+             <a href = "https://www.depop.com/products/nobipenguin19-super-comfy-and-stretchy/?moduleOrigin=meganav"><button class = "purchase">Add To Bag</button></a>
           </div>
           <div className="product-container">
-            <img className ="product" src="https://www.esteelauder.com/media/export/cms/products/640x640/el_sku_YA6FCT_640x640_0.jpg"/>
-            <button className ="product-label">Double Wear
-      Stay-in-Place Foundation</button>
-            <button className = "product-desc">24-hour wear. Flawless, natural, matte foundation.</button>
-            <p className="price">$48.00</p>
-            <button className = "purchase">Add To Bag</button>
+            <img className ="product" src="https://media-photos.depop.com/b1/15801073/1791126277_55e7666c0e1f41fcbcc443180154f63d/P0.jpg"/>
+            <button className ="product-label">Brandy Melville's Women's Cream Shirt</button>
+             <p className="price">$15.00</p>
+             <a href = "https://media-photos.depop.com/b1/15801073/1791126277_55e7666c0e1f41fcbcc443180154f63d/P0.jpgv"><button class = "purchase">Add To Bag</button></a>
           </div>
           <div className="product-container">
-            <img className ="product" src="https://www.esteelauder.com/media/export/cms/products/640x640/el_sku_PMXX01_640x640_0.jpg"/>
-            <button className ="product-label">Moisturizer
-      Youth Power Creme </button>
-            <button className = "product-desc">Rich multi-action creme: Firming, lifting, radiance</button>
-            <p className="price">$64.00 - $120.00</p>
-            <button className = "purchase">Add To Bag</button>
+            <img className ="product" src="https://media-photos.depop.com/b1/13538030/1985784832_3d1b8e45700f40cbb4951825aa7c2775/P0.jpg"/>
+            <button className ="product-label">Gaps Women's Grey Sweatshirt</button>
+             <p className="price">$15.00</p>
+             <a href = "https://www.depop.com/products/onaomi-gap-dark-grey-knit-sweater/?moduleOrigin=meganav"><button class = "purchase">Add To Bag</button></a>
           </div>
-           <div className="product-container">
-            <img className ="product" src="https://www.esteelauder.com/media/export/cms/products/640x640/el_sku_PPPX01_640x640_0.jpg"/>
-            <button className ="product-label">Advanced Night Repair Eye Concentrate</button>
-            <button className = "product-desc">Reduces the look of lines. Skin feels firmer, nourished</button>
-             <p className="price">$78.00</p>
-            <button className = "purchase">Add To Bag</button>
+          <div className="product-container">
+            <img className ="product" src="https://media-photos.depop.com/b0/7042031/913087496_7846bddd119344a68fb08b7aa20f880a/P0.jpg"/>
+            <button className ="product-label">Gap Women's Green T-shirt</button>
+             <p className="price">$5.40</p>
+             <a href = "https://www.depop.com/products/aepahl-gap-vintage-faded-army-green/"><button class = "purchase">Add To Bag</button></a>
           </div>
         </section>
         <footer class = "footer">

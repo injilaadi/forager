@@ -45,10 +45,10 @@ function Fit(){
             {fits.map((fit) => {
                 return <div class="product-container">
                     <img class ="product" src={fit.url}/>
-                    <button class ="product-label">Advanced Night Repair Serum Duo</button>
-                    <button class = "product-desc">Synchronized Multi-Recovery Complex</button>
-                    <p class="price">$193.00</p>
-                    <button class = "purchase">Add To Bag</button>
+                    <button class ="product-label">{fit.brand}</button>
+
+                    <p class="price">{fit.cost}</p>
+                    <a href = {fit.website}><button class = "purchase">Add To Bag</button></a>
                 </div>
                 }
             )}
