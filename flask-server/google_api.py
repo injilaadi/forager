@@ -84,7 +84,8 @@ Your answer (as a JSON LIST):""")
   # print("parts")
   # print(candidateList[0].content.parts)
   # print("part-content")
-  print(candidateList[0].content.parts[0].text)
+  #print(candidateList[0].content.parts[0].text)
+  return candidateList[0].content.parts[0].text
 
 if __name__ == "__main__":
   generate()
