@@ -9,7 +9,7 @@ function Home(){
         
         <nav className = "navBar">
             <h3 className = "For you"><a className="anchorHover" href="/" style={{color: 'black'}} onMouseOver={"black"}>Home</a></h3>
-            <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Fit</a></h3>
+            <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Find your best fit</a></h3>
             <h3 className = "Sign-in"><a href="/Account" style={{color: 'black'}}>Account</a></h3>
         </nav>
 

@@ -2,6 +2,7 @@ from google import genai
 from google.genai import types
 import base64
 
+
 def generate():
   client = genai.Client(
       vertexai=True,

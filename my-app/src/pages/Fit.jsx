@@ -1,23 +1,27 @@
 import React from "react";
 import FileUpload from "../components/FileUpload";
+
 function Fit(){
    
         return(
             <section> 
-            <h1 className = "homeTitle">Find Your Fit</h1>
+            <h1 className = "homeTitle">Forager</h1>
             
             <nav className = "navBar">
                 <h3 className = "For you"><a className="anchorHover" href="/" style={{color: 'black'}} onMouseOver={"black"}>Home</a></h3>
-                <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Fit</a></h3>
+                <h3 className = "Find your best fit"><a href="/Fit" style={{color: 'black'}}>Find your best fit</a></h3>
                 <h3 className = "Sign-in"><a href="/Account" style={{color: 'black'}}>Account</a></h3>
             </nav>
             
             <section class = "home-container">
 
             {/* <img class = "bottleimg fade" src="6.jpg"/> */}
-            <div class="bottleimg fade">
+            
+            <div class="filedrop">
+                
             <FileUpload/>
             </div>
+            
             
             <div class="homepg-txt">
               <h2 class="serumText">Find your best fit</h2>
