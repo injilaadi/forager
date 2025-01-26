@@ -85,12 +85,6 @@ Your answer (as a JSON LIST):""")
   # print(candidateList[0].content.parts)
   # print("part-content")
   print(candidateList[0].content.parts[0].text)
-    # if not chunk.candidates or not chunk.candidates[0].content.parts:
-    #   continue
-    
-    #print(chunk, end="")
-
 
 if __name__ == "__main__":
-  print('r u here?')
   generate()
