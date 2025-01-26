@@ -1,11 +1,11 @@
 import http.client
 import json
 
-def get_depop_product_image(slug, api_key):
+def get_depop_product_image(slug):
     conn = http.client.HTTPSConnection("depop-thrift.p.rapidapi.com")
 
     headers = {
-        'x-rapidapi-key': api_key,
+        'x-rapidapi-key': "8d50b69a9emshad4b6475b1208c9p12773cjsn9ff55d29b0f9",
         'x-rapidapi-host': "depop-thrift.p.rapidapi.com"
     }
 
@@ -39,8 +39,8 @@ def get_depop_product_image(slug, api_key):
         return f"Error: Unable to fetch data from Depop API. Status code {res.status}"
 
 # Example usage
-api_key = "your_actual_rapidapi_key_here"  # Replace with your RapidAPI key
+
 slug = "some-product-slug"  # Replace with an actual product slug from Depop
 
-image_url = get_depop_product_image(slug, api_key)
+image_url = get_depop_product_image(slug)
 print(image_url)
