@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 
 from google_api import generate
+import depopapi
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173"])
 

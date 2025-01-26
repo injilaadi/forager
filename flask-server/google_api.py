@@ -89,3 +89,6 @@ Your answer (as a JSON LIST):""")
 
 if __name__ == "__main__":
   generate()
+
+
+#item name, img, id, cost, brand
