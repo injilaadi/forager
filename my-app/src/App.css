@@ -109,6 +109,14 @@ nav button{
   
 }
 
+
+nav button:hover {
+  color: white; /* Change text color to white */
+  background-color: black; /* Change background color to black */
+  box-shadow: none;
+  border: none;
+}
+
 .navBar{
   font-style:Times New Roman;
   color:black;
@@ -117,8 +125,10 @@ nav button{
   border-bottom:2px solid black;
   text-transform:uppercase;
   margin:1px;
-  
+  background-color: #f4e6e2;
+  margin-bottom: 30px;
 }
+
 
 nav button:hover{
   box-shadow:none;
@@ -145,7 +155,7 @@ nav button.active{
   margin:20px;
 }
 .home-container{
-  background-color:#B28173;
+  background-color:#b68476;
   display:flex;
   align-items:center;
   
@@ -316,44 +326,55 @@ nav button.active{
   
 }
 
-.sign-in2{
-  font-size:30px;
-  margin-top: 10px;
-  margin-bottom:20px;
-  text-transform:uppercase;
-  font-weight:100;
- 
-}
-.account-container{
-  width:30%;
-  height:300px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  margin:5px;
-  margin-top:20px;
-  border:3px solid black;
+.sign-in2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center; 
 }
 
-.account{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  
+.account-container {
+  width: 40%; 
+  min-width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto; 
+  padding: 20px; 
+  border: 3px solid black;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  background-color: #f9f9f9;
 }
 
-.submit{
-  color:#11053b;
-  background-color:#ffffff;
-  margin:10px;
-  padding:5px;
-  border:1px solid #B28173;
-  border-radius:10px;
-  
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  gap: 20px; 
+  width: 100%;
+  padding: 10px;
 }
 
-.submit:hover{
-  background-color:lightgray;
+.submit {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px; 
+  background-color: #000000;
+  margin: 10px;
+  padding: 5px 15px;
+  border: 1px solid #B28173;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #B28173; 
+  color: #000000; 
 }
 
 .img-header{
