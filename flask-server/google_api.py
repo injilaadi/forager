@@ -15,7 +15,7 @@ def generate():
       mime_type="image/png",
   )
   text1 = types.Part.from_text("""##Task description
-You are given a retail product's image. Your task is to examine the photo and find clothing items from retail webstores (ie. Hollister, Pacsun, Reformation, DePop, Forever21, etc.) that look similar to the product in the photo.
+You are given a retail product's image. Your task is to examine the photo and find clothing items from the retail webstore DePopThrift that look similar to the product in the photo.
 ##Output specification
 You should provide the output in a strictly valid JSON format same as the following example. [
 {Item_name\": \"Name of Item on the website you found it.\",
